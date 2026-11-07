@@ -39,7 +39,7 @@ export const site = {
   },
   audio: {
     backgroundMusic: publicAsset(
-      'mangalyam-tantunanena-lyrical-just-married-sanjith-hegde-c-r-bobby-b-aj_DHDXVlxD.mp3',
+      'wedding_website_tune.mpeg',
     ),
     volume: 0.16,
     fadeInDuration: 2600,
@@ -103,7 +103,7 @@ export const site = {
       title: 'Engagement',
       description: '6:00 PM onwards — celebrations',
       /** Diya — lamps & auspicious light for the evening celebration */
-      image: publicAsset('reception-logo.png'),
+      image: publicAsset('engagement-logo.jpg'),
       calendarEventId: 'reception',
     },
     {
@@ -112,7 +112,7 @@ export const site = {
       title: 'Shubh Vivah',
       description: 'Auspicious wedding ceremony',
       /** Om — sacred symbol for the wedding ceremony (replaces generic chapel) */
-      image: publicAsset('muhurtham.jpg'),
+      image: publicAsset('shaadi-logo.jpg'),
       calendarEventId: 'muhurtham',
     },
   ],
