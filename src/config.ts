@@ -5,8 +5,8 @@ const publicAsset = (path: string) =>
 
 export const site = {
   couple: {
-    bride: 'Pritam',
-    groom: 'Srushti',
+    bride: 'Srushti',
+    groom: 'Pritam',
     monogramLogo: publicAsset('nd-logo-envelope.png'),
   },
   wedding: {
@@ -119,20 +119,20 @@ export const site = {
   calendarEvents: [
     {
       id: 'reception',
-      title: 'Pritam & Srushti Engagement',
+      title: 'Srushti & Pritam Engagement',
       startUtc: '20261217T123000Z',
       endUtc: '20261217T173000Z',
       description:
-        'Engagement celebration for Pritam and Srushti. Celebrations from 6:00 PM onwards.',
+        'Engagement celebration for Srushti and Pritam. Celebrations from 6:00 PM onwards.',
       filename: 'Pritam-Srushti-engagement.ics',
     },
     {
       id: 'muhurtham',
-      title: 'Pritam & Srushti Shubh Vivah',
+      title: 'Srushti & Pritam Shubh Vivah',
       startUtc: '20261218T070500Z',
       endUtc: '20261218T090500Z',
       description:
-        'Shubh Vivah — auspicious wedding ceremony for Pritam and Srushti.',
+        'Shubh Vivah — auspicious wedding ceremony for Srushti and Pritam.',
       filename: 'Pritam-Srushti-shubh-vivah.ics',
     },
   ],
@@ -146,7 +146,7 @@ export const site = {
     mapHeading: 'Venue location',
     withLove: 'With love & blessings',
     copyright:
-      'Pritam <span class="text-gold-600">&</span> Srushti',
+      'Srushti <span class="text-gold-600">&</span> Pritam',
   },
   rsvp: {
     heading: 'RSVP',
@@ -156,8 +156,8 @@ export const site = {
       'https://script.google.com/macros/s/AKfycbxvaSEZH8GcmL1G4VdgR7BxMKW4ualcLK56u1hPMiekT_ch43siSBHqbM4sxOTGsvcG/exec',
     sheetUrl:
       'https://docs.google.com/spreadsheets/d/1v-lzcZs_RO7_PxpATcrxe3ym_TvEF68qvCun628EslM/edit?usp=sharing',
-    phoneDisplay: '9049182594',
+    phoneDisplay: '9175259325',
     whatsappLink:
-      'https://wa.me/9049182594?text=Hi%20Pritam%2C%20I%20would%20like%20to%20RSVP%20for%20the%20wedding.',
+      'https://wa.me/9175259325?text=Hi%20Srushti%2C%20I%20would%20like%20to%20RSVP%20for%20the%20wedding.',
   },
 } as const
